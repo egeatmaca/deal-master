@@ -1,2 +1,4 @@
 # deal-master
-Deal Master - Deals &amp; Discounts
+Deal Master - Discount &amp; Deal Website 
+
+dealmaster.vercel.app

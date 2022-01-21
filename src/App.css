@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  background-color: #f2e8cf;
+  font-size: 150%;
+  font-family: Abel;
+}
+
+#logo {
+  height: 100%;
+  pointer-events: none;
+}
+
+.deal button { 
+  background-color: #28a124cb;
+  color: #9e2c2e;
+  font-weight: bold;
+  font-size: 80%;
+}
+
+.cover {
+  width: 50%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+#homeImage {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.discount-red {
+  color: #9e2c2e;
+}
+
+footer {
+  margin-top: 15%;
+}
+
+footer p {
+  font-size: small;
+}
+
+@keyframes greenToRed {
+  from { color: #28a124cb; }
+  to { color: #28a124; }
+  to { color:#9e2c2e }
+  to { color: #28a124cb; }
+  to { color: #28a124; }
+  to { color:#9e2c2e }
+}
+
+#dealmaster {
+  animation-name: greenToRed;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
