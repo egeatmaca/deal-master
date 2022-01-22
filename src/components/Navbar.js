@@ -11,10 +11,10 @@ const Navbar = () => {
 		<>
 			<Nav> 
 				<NavMenu>
-					<NavLink to='/' activeStyle>
+					<NavLink to='/home' activeStyle>
 						<img id='logo' alt='logo' src={logo}/>
 					</NavLink>
-					<NavLink to='/' activeStyle>
+					<NavLink to='/home' activeStyle>
 						<b>Home</b>
 					</NavLink>
 					<NavLink to='/wolt' activeStyle>
