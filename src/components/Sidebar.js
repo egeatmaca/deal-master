@@ -10,7 +10,7 @@ export default function Sidebar() {
       <Bars onClick={() => toggleSidebar()} />
       <div className="sidebar" style={{ display: isOpen ? "block" : "none" }}>
         <SideNav>
-          <h3 class="sidebar-header">🔥 Deals:</h3>
+          <h3 class="sidebar-header" style={{color: '#fff'}}> 🔥 Deals: </h3>
           <ul>
             <li>
               <NavLink to="/wolt" activeStyle>

@@ -21,14 +21,21 @@ function Gorillas() {
       <h1>Gorillas</h1>
       <h2>Gorillas 15€ Discount</h2>
       <p>
-        🍔 Apply the referral code, get <b>15€ discount</b>. <br />
-        🍕 Completely <b>FREE!</b> <br />
-        🍟 CODE: <br />
+        🛒 Apply the referral code, get <b>15€ discount</b>. <br />
+        🍅 Completely <b>FREE!</b> <br />
+        🥑 CODE:
         <b>
           <span id="gorillas-code">EA550697</span>
           <button onClick={copyCode}> {copyText} </button>
-        </b> <br /><br />
-        * Discount is valid for orders over 30€.
+        </b>{" "}
+        <br />
+        Go to{" "}
+        <a href="https://gorillas.io" target="_blank">
+          Gorillas
+        </a>{" "}
+        to get your discount!
+        <br />
+        <br />* Discount is valid for orders over 30€.
       </p>
     </div>
   );

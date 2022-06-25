@@ -22,8 +22,7 @@ export const SideNav = styled.nav`
          right: 0;
          width: 50%;
          height: 100%;
-         color: #fff;
-         background-color: #28a124e1;
+         color: #00000000;
          display: none;
          @media screen and (max-width: 768px) {
            display: block;
@@ -48,7 +47,7 @@ export const Bars = styled(FaBars)`
   color: #112211;
   @media screen and (max-width: 768px) {
     display: block;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     transform: translate(-100%, 75%);
