@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { SideNav, NavLink, Bars } from "./NavbarElements";
 
 export default function Sidebar() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   const toggleSidebar = () => { setIsOpen(!isOpen); };
 
   return (
