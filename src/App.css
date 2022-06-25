@@ -54,3 +54,17 @@ footer p {
   animation-duration: 8s;
   animation-iteration-count: infinite;
 }
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.app-body {
+  margin-top: 10vh;
+}
+
+.sidebar-header {
+  margin-top: 10vh;
+}

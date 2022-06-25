@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import woltImage from "../assets/wolt.jpg"
+import woltImage from "../../assets/wolt.jpg"
 
 function Wolt() {
   const [ copyText, setCopyText ]  = useState('Copy!');

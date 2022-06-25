@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import uberEatsImage from '../assets/asia.png'
+import uberEatsImage from "../../assets/asia.png";
 
 function UberEats() {
   const [ copyText, setCopyText ] = useState("Copy!")
