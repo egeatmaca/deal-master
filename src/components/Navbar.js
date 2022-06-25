@@ -2,8 +2,7 @@ import React from 'react';
 import {
 Nav,
 NavLink,
-NavMenu,
-Bars
+NavMenu
 } from './NavbarElements';
 import logo from '../assets/logo.png';
 

@@ -30,7 +30,7 @@ function Gorillas() {
         </b>{" "}
         <br />
         Go to{" "}
-        <a href="https://gorillas.io" target="_blank">
+        <a href="https://gorillas.io" target="_blank" rel="noopener noreferrer">
           Gorillas
         </a>{" "}
         to get your discount!
